@@ -14,9 +14,9 @@ The method return the id of the inserted data.
 ```javascript
     // saving data to the local storage
 	var id = db.addData({
-		'userName': 'john doe',
-		'password': 'my_super_s3cr37_pwd',
-		'email': 'myemail@local.com'
+		userName: 'john doe',
+		password: 'my_super_s3cr37_pwd',
+		email: 'myemail@local.com'
 	});
 ```
 This data will be saved in a associative array object in the local storage.
@@ -38,9 +38,9 @@ To update data on a record, you have to pass the complete dataset to be updated.
 *(maybe at anoter release?)*
 ```javascript
     var updated = db.editData(1, {
-		'userName': 'jane doe',
-		'password': 'anotherRandomPswd',
-		'email': 'mynewemail@local.com'
+		userName: 'jane doe',
+		password: 'anotherRandomPswd',
+		email: 'mynewemail@local.com'
 	});
 ```
 This method returns a boolean to informe if the data has been updated.
@@ -52,9 +52,9 @@ To retrieve data you only need the numeric id that represent the desired record.
     var data = db.getData(1);
 	// data will be an object like this:
 	//{
-	//	'userName': 'jane doe',
-	//	'password': 'anotherRandomPswd',
-	//	'email': 'mynewemail@local.com'
+	//	userName: 'jane doe',
+	//	password: 'anotherRandomPswd',
+	//	email: 'mynewemail@local.com'
 	//}
 ```
 
