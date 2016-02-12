@@ -9,7 +9,7 @@ first you need to create a object to be used as the database handler.
 Once created the object you can then proceed to add, edit, delete or retrieve the data on the local storage.
 *note that the local storage can only save about* **5MB** *of data*
 ##### Saving Data
-To sabe data you need to pass a javascript object that will be parsed as string to the local storage.
+To save data you need to pass a javascript object that will be parsed as string to the local storage.
 The method return the id of the inserted data.
 ```javascript
     // saving data to the local storage
